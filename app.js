@@ -1,4 +1,5 @@
 // http://npmjs.com/package/express
+// https://expressjs.com/en/4x/api.html
 var express = require('express')
 
 // https://nodejs.org/api/path.html
@@ -34,20 +35,21 @@ var mongo = require('mongodb')
 // https://www.npmjs.com/package/mongoose
 var mongoose = require('mongoose')
 
-// A MongoDB server must be running on localhost.
-// You can download MongoDB from https://www.mongodb.com/download-center
+// Connect to the local MongoDB server.
 mongoose.connect('mongodb://localhost/loginapp')
 
+// mongoose.connection allows us to attach events
 var db = mongoose.connection
 
-// Routes
+// Routes are passed into separate files.
 var routes = require('./routes/index.js')
 var users = require('./routes/users.js')
 
-// Init App
+// Initialize Express
 var app = express()
 
 // View Engine
+app.set('views', path.join(__dirname, 'views'))
 app.engine('handlebars', exphbs({defaultLayout: 'layout'}))
 app.set('view engine', 'handlebars')
 
