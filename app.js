@@ -58,11 +58,12 @@ var app = express()
 */
 app.set('views', path.join(__dirname, 'views'))
 
+// All views will be sent through views/layouts/layouts.handlebars
+app.engine('handlebars', exphbs({defaultLayout: 'layout'}))
 /*
   Allows Express to render Handlebars formatted HTML.
   Express will still accept plain HTML.
 */
-app.engine('handlebars', exphbs({defaultLayout: 'layout'}))
 app.set('view engine', 'handlebars')
 
 // BodyParser Middleware

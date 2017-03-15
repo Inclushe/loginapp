@@ -1,6 +1,6 @@
 # Express Login System
 
-This is a fork of [Brad Traversy's loginapp repository](https://github.com/bradtraversy/loginapp), covered in [this video tutorial](https://www.youtube.com/watch?v=Z1ktxiqyiLA).
+This is a fork of [Brad Traversy's loginapp repository](https://github.com/bradtraversy/loginapp), covered in [this video tutorial](https://www.youtube.com/playlist?list=PLillGF-RfqbbqvbObyE7CldS5-trkefnB).
 
 This version has more informative comments.
 
