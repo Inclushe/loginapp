@@ -1,3 +1,7 @@
+**Please don't use this lol.**
+
+**If you want to learn more about Express, go watch [Learn Node by Wes Bos](https://learnnode.com/) instead. <sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup>pirate it if you need to</sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub>**
+
 # Express Login System
 
 This is a fork of [Brad Traversy's loginapp repository](https://github.com/bradtraversy/loginapp), covered in [this video tutorial](https://www.youtube.com/playlist?list=PLillGF-RfqbbqvbObyE7CldS5-trkefnB).
